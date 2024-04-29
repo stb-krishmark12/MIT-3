@@ -1,0 +1,146 @@
+body{
+    background-color:hsl(0, 100%, 74%) ;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 10%;
+}
+img{position: absolute;
+    z-index: -2;
+}
+
+h1{
+    color: white;
+}
+
+p{
+    color: white;
+}
+
+.righthalf{
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.trial{
+box-shadow: 0 5px 6px 2px rgba(0, 0, 0, 0.674); 
+background-color: hsl(248, 32%, 49%);
+height: 60px;
+width: 450px;
+box-shadow:black;
+border-radius: 10px;
+margin-bottom: 20px;
+
+}
+
+h2{
+color: white;
+font-size: 20px;
+text-align: center;
+font-weight:5;
+font-family:'Poppins';
+}
+b{
+    font-weight:800;
+}
+
+.signupform{
+
+box-shadow: 0 0px 10px 1px rgba(0, 0, 0, 0.674); 
+
+height:fit-content;
+width: 450px;
+display: flex;
+flex-direction: column;
+align-items: center;
+background-color: white;
+border-radius: 10px;
+box-shadow:20,20,10,black;
+
+}
+
+h4{ 
+    color: rgb(255, 20, 20);
+    font-size: 12px;
+    text-align: right;
+    padding-left: 200px;
+}
+
+.fname{
+    margin-top: 25px;
+}
+input{
+
+height: 40px;
+width: 370px;
+border-radius: 5px;
+border-width: 1px;
+border-color: rgb(126, 126, 126);
+}
+
+button{
+    box-shadow: 0 1px 10px 1px rgba(0, 0, 0, 0.674); 
+
+    background-color: hsl(154, 59%, 51%);
+    margin-top: 0;
+    height: 40px;
+    width: 370px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: rgb(126, 126, 126);
+    font-family: 'Poppins';
+    font-size: 16px;
+    color: white;
+}
+
+h3{
+    font-size: 12px;
+    text-align: center;
+    margin: 10px;
+    padding-bottom: 20px;
+}
+a{
+    color:  hsl(0, 100%, 74%);
+}
+
+@media only screen and (max-width:750px) {
+    body{
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+        justify-content: center;
+        margin: 10%;
+        margin-top: 200px;
+    }
+    
+    .lefthalf{
+        font-size: 16px;
+        width: 350px;
+        padding-left: 80px;
+    }
+
+    .righthalf{
+        font-size: 10px;
+
+    }
+    .signupform{
+        height: fit-content;
+        width: fit-content;
+
+    }
+    
+    input{
+        width:300px;
+    }
+    button{
+        width: 300px;
+    }
+
+    .trial{
+        width: 395px;
+    }
+}
